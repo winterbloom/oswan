@@ -1,0 +1,76 @@
+printf/cmp.lo: ../../../gcc-7.3.0/libquadmath/printf/cmp.c config.h \
+ ../../../gcc-7.3.0/libquadmath/printf/gmp-impl.h /usr/include/stdlib.h \
+ /usr/include/machine/ieeefp.h /usr/include/_ansi.h /usr/include/newlib.h \
+ /usr/include/_newlib_version.h /usr/include/sys/config.h \
+ /usr/include/sys/features.h /usr/include/cygwin/config.h \
+ /home/Hazel/build-gcc/gcc/include/stddef.h /usr/include/sys/reent.h \
+ /usr/include/_ansi.h /usr/include/sys/_types.h \
+ /usr/include/machine/_types.h /usr/include/machine/_default_types.h \
+ /usr/include/sys/lock.h /usr/include/sys/cdefs.h \
+ /usr/include/machine/stdlib.h /usr/include/alloca.h \
+ /usr/include/cygwin/stdlib.h /usr/include/cygwin/wait.h \
+ /usr/include/xlocale.h ../../../gcc-7.3.0/libquadmath/quadmath-imp.h \
+ /home/Hazel/build-gcc/gcc/include/stdint.h /usr/include/stdint.h \
+ /usr/include/sys/_intsup.h /usr/include/sys/_stdint.h \
+ ../../../gcc-7.3.0/libquadmath/quadmath.h \
+ /home/Hazel/gcc-7.3.0/include/longlong.h
+
+config.h:
+
+../../../gcc-7.3.0/libquadmath/printf/gmp-impl.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/machine/ieeefp.h:
+
+/usr/include/_ansi.h:
+
+/usr/include/newlib.h:
+
+/usr/include/_newlib_version.h:
+
+/usr/include/sys/config.h:
+
+/usr/include/sys/features.h:
+
+/usr/include/cygwin/config.h:
+
+/home/Hazel/build-gcc/gcc/include/stddef.h:
+
+/usr/include/sys/reent.h:
+
+/usr/include/_ansi.h:
+
+/usr/include/sys/_types.h:
+
+/usr/include/machine/_types.h:
+
+/usr/include/machine/_default_types.h:
+
+/usr/include/sys/lock.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/machine/stdlib.h:
+
+/usr/include/alloca.h:
+
+/usr/include/cygwin/stdlib.h:
+
+/usr/include/cygwin/wait.h:
+
+/usr/include/xlocale.h:
+
+../../../gcc-7.3.0/libquadmath/quadmath-imp.h:
+
+/home/Hazel/build-gcc/gcc/include/stdint.h:
+
+/usr/include/stdint.h:
+
+/usr/include/sys/_intsup.h:
+
+/usr/include/sys/_stdint.h:
+
+../../../gcc-7.3.0/libquadmath/quadmath.h:
+
+/home/Hazel/gcc-7.3.0/include/longlong.h:

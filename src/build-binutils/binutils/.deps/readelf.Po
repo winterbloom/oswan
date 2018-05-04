@@ -1,0 +1,466 @@
+readelf.o: ../../binutils-2.30/binutils/readelf.c \
+ ../../binutils-2.30/binutils/sysdep.h \
+ ../../binutils-2.30/binutils/../include/alloca-conf.h config.h \
+ /usr/include/alloca.h /usr/include/_ansi.h /usr/include/newlib.h \
+ /usr/include/_newlib_version.h /usr/include/sys/config.h \
+ /usr/include/machine/ieeefp.h /usr/include/sys/features.h \
+ /usr/include/cygwin/config.h /usr/include/sys/reent.h \
+ /usr/include/_ansi.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/stddef.h \
+ /usr/include/sys/_types.h /usr/include/machine/_types.h \
+ /usr/include/machine/_default_types.h /usr/include/sys/lock.h \
+ ../../binutils-2.30/binutils/../include/ansidecl.h /usr/include/stdio.h \
+ /usr/include/sys/cdefs.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/stdarg.h \
+ /usr/include/sys/types.h /usr/include/sys/_stdint.h \
+ /usr/include/machine/endian.h /usr/include/machine/_endian.h \
+ /usr/include/bits/endian.h /usr/include/sys/select.h \
+ /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+ /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+ /usr/include/sys/_pthreadtypes.h /usr/include/machine/types.h \
+ /usr/include/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/bits/wordsize.h /usr/include/sys/sysmacros.h \
+ /usr/include/sys/stdio.h ../bfd/bfdver.h \
+ ../../binutils-2.30/binutils/../include/fopen-bin.h /usr/include/errno.h \
+ /usr/include/sys/errno.h /usr/include/unistd.h /usr/include/sys/unistd.h \
+ ../../binutils-2.30/binutils/../include/getopt.h /usr/include/string.h \
+ /usr/include/xlocale.h /usr/include/strings.h /usr/include/sys/string.h \
+ /usr/include/stdlib.h /usr/include/machine/stdlib.h \
+ /usr/include/cygwin/stdlib.h /usr/include/cygwin/wait.h \
+ /usr/include/fcntl.h /usr/include/sys/fcntl.h \
+ /usr/include/sys/_default_fcntl.h /usr/include/sys/stat.h \
+ /usr/include/time.h /usr/include/machine/time.h \
+ /usr/include/cygwin/time.h /usr/include/signal.h \
+ /usr/include/sys/signal.h /usr/include/cygwin/signal.h \
+ /usr/include/sys/ucontext.h /usr/include/cygwin/stat.h \
+ /usr/include/sys/time.h /usr/include/machine/_time.h \
+ ../../binutils-2.30/binutils/../include/binary-io.h /usr/include/io.h \
+ /usr/include/locale.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/limits.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/syslimits.h \
+ /usr/include/limits.h /usr/include/features.h /usr/include/assert.h \
+ ../../binutils-2.30/binutils/../zlib/zlib.h \
+ ../../binutils-2.30/binutils/../zlib/zconf.h /usr/include/wchar.h \
+ ../bfd/bfd.h ../../binutils-2.30/binutils/../include/symcat.h \
+ ../../binutils-2.30/binutils/bucomm.h \
+ ../../binutils-2.30/binutils/elfcomm.h \
+ ../../binutils-2.30/binutils/../include/aout/ar.h \
+ ../../binutils-2.30/binutils/dwarf.h \
+ ../../binutils-2.30/binutils/../include/dwarf2.h \
+ ../../binutils-2.30/binutils/../include/dwarf2.def \
+ ../../binutils-2.30/binutils/../include/elf/common.h \
+ ../../binutils-2.30/binutils/../include/elf/external.h \
+ ../../binutils-2.30/binutils/../include/elf/internal.h \
+ ../../binutils-2.30/binutils/../include/elf/h8.h \
+ ../../binutils-2.30/binutils/../include/elf/reloc-macros.h \
+ ../../binutils-2.30/binutils/../include/elf/aarch64.h \
+ ../../binutils-2.30/binutils/../include/elf/alpha.h \
+ ../../binutils-2.30/binutils/../include/elf/arc.h \
+ ../../binutils-2.30/binutils/../include/elf/arc-reloc.def \
+ ../../binutils-2.30/binutils/../include/elf/arm.h \
+ ../../binutils-2.30/binutils/../include/elf/avr.h \
+ ../../binutils-2.30/binutils/../include/elf/bfin.h \
+ ../../binutils-2.30/binutils/../include/elf/cr16.h \
+ ../../binutils-2.30/binutils/../include/elf/cris.h \
+ ../../binutils-2.30/binutils/../include/elf/crx.h \
+ ../../binutils-2.30/binutils/../include/elf/d10v.h \
+ ../../binutils-2.30/binutils/../include/elf/d30v.h \
+ ../../binutils-2.30/binutils/../include/elf/dlx.h \
+ ../../binutils-2.30/binutils/../include/elf/epiphany.h \
+ ../../binutils-2.30/binutils/../include/elf/fr30.h \
+ ../../binutils-2.30/binutils/../include/elf/frv.h \
+ ../../binutils-2.30/binutils/../include/elf/ft32.h \
+ ../../binutils-2.30/binutils/../include/elf/hppa.h \
+ ../../binutils-2.30/binutils/../include/elf/i386.h \
+ ../../binutils-2.30/binutils/../include/elf/i370.h \
+ ../../binutils-2.30/binutils/../include/elf/i860.h \
+ ../../binutils-2.30/binutils/../include/elf/i960.h \
+ ../../binutils-2.30/binutils/../include/elf/ia64.h \
+ ../../binutils-2.30/binutils/../include/elf/ip2k.h \
+ ../../binutils-2.30/binutils/../include/elf/lm32.h \
+ ../../binutils-2.30/binutils/../include/elf/iq2000.h \
+ ../../binutils-2.30/binutils/../include/elf/m32c.h \
+ ../../binutils-2.30/binutils/../include/elf/m32r.h \
+ ../../binutils-2.30/binutils/../include/elf/m68k.h \
+ ../../binutils-2.30/binutils/../include/elf/m68hc11.h \
+ ../../binutils-2.30/binutils/../include/elf/mcore.h \
+ ../../binutils-2.30/binutils/../include/elf/mep.h \
+ ../../binutils-2.30/binutils/../include/elf/metag.h \
+ ../../binutils-2.30/binutils/../include/elf/microblaze.h \
+ ../../binutils-2.30/binutils/../include/elf/mips.h \
+ ../../binutils-2.30/binutils/../include/elf/mmix.h \
+ ../../binutils-2.30/binutils/../include/elf/mn10200.h \
+ ../../binutils-2.30/binutils/../include/elf/mn10300.h \
+ ../../binutils-2.30/binutils/../include/elf/moxie.h \
+ ../../binutils-2.30/binutils/../include/elf/mt.h \
+ ../../binutils-2.30/binutils/../include/elf/msp430.h \
+ ../../binutils-2.30/binutils/../include/elf/nds32.h \
+ ../../binutils-2.30/binutils/../include/elf/nios2.h \
+ ../../binutils-2.30/binutils/../include/elf/or1k.h \
+ ../../binutils-2.30/binutils/../include/elf/pj.h \
+ ../../binutils-2.30/binutils/../include/elf/ppc.h \
+ ../../binutils-2.30/binutils/../include/elf/ppc64.h \
+ ../../binutils-2.30/binutils/../include/elf/pru.h \
+ ../../binutils-2.30/binutils/../include/elf/riscv.h \
+ ../../binutils-2.30/binutils/../include/libiberty.h \
+ ../../binutils-2.30/binutils/../include/ansidecl.h \
+ ../../binutils-2.30/binutils/../include/elf/rl78.h \
+ ../../binutils-2.30/binutils/../include/elf/rx.h \
+ ../../binutils-2.30/binutils/../include/elf/s390.h \
+ ../../binutils-2.30/binutils/../include/elf/score.h \
+ ../../binutils-2.30/binutils/../include/elf/sh.h \
+ ../../binutils-2.30/binutils/../include/elf/sparc.h \
+ ../../binutils-2.30/binutils/../include/elf/spu.h \
+ ../../binutils-2.30/binutils/../include/elf/tic6x.h \
+ ../../binutils-2.30/binutils/../include/elf/tic6x-attrs.h \
+ ../../binutils-2.30/binutils/../include/elf/tilegx.h \
+ ../../binutils-2.30/binutils/../include/elf/tilepro.h \
+ ../../binutils-2.30/binutils/../include/elf/v850.h \
+ ../../binutils-2.30/binutils/../include/elf/vax.h \
+ ../../binutils-2.30/binutils/../include/elf/visium.h \
+ ../../binutils-2.30/binutils/../include/elf/wasm32.h \
+ ../../binutils-2.30/binutils/../include/elf/x86-64.h \
+ ../../binutils-2.30/binutils/../include/elf/xc16x.h \
+ ../../binutils-2.30/binutils/../include/elf/xgate.h \
+ ../../binutils-2.30/binutils/../include/elf/xstormy16.h \
+ ../../binutils-2.30/binutils/../include/elf/xtensa.h \
+ ../../binutils-2.30/binutils/../include/safe-ctype.h \
+ /usr/include/ctype.h ../../binutils-2.30/binutils/../include/filenames.h \
+ ../../binutils-2.30/binutils/../include/hashtab.h \
+ ../../binutils-2.30/binutils/unwind-ia64.h
+
+../../binutils-2.30/binutils/sysdep.h:
+
+../../binutils-2.30/binutils/../include/alloca-conf.h:
+
+config.h:
+
+/usr/include/alloca.h:
+
+/usr/include/_ansi.h:
+
+/usr/include/newlib.h:
+
+/usr/include/_newlib_version.h:
+
+/usr/include/sys/config.h:
+
+/usr/include/machine/ieeefp.h:
+
+/usr/include/sys/features.h:
+
+/usr/include/cygwin/config.h:
+
+/usr/include/sys/reent.h:
+
+/usr/include/_ansi.h:
+
+/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/stddef.h:
+
+/usr/include/sys/_types.h:
+
+/usr/include/machine/_types.h:
+
+/usr/include/machine/_default_types.h:
+
+/usr/include/sys/lock.h:
+
+../../binutils-2.30/binutils/../include/ansidecl.h:
+
+/usr/include/stdio.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/stdarg.h:
+
+/usr/include/sys/types.h:
+
+/usr/include/sys/_stdint.h:
+
+/usr/include/machine/endian.h:
+
+/usr/include/machine/_endian.h:
+
+/usr/include/bits/endian.h:
+
+/usr/include/sys/select.h:
+
+/usr/include/sys/_sigset.h:
+
+/usr/include/sys/_timeval.h:
+
+/usr/include/sys/timespec.h:
+
+/usr/include/sys/_timespec.h:
+
+/usr/include/sys/_pthreadtypes.h:
+
+/usr/include/machine/types.h:
+
+/usr/include/endian.h:
+
+/usr/include/bits/byteswap.h:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/sys/sysmacros.h:
+
+/usr/include/sys/stdio.h:
+
+../bfd/bfdver.h:
+
+../../binutils-2.30/binutils/../include/fopen-bin.h:
+
+/usr/include/errno.h:
+
+/usr/include/sys/errno.h:
+
+/usr/include/unistd.h:
+
+/usr/include/sys/unistd.h:
+
+../../binutils-2.30/binutils/../include/getopt.h:
+
+/usr/include/string.h:
+
+/usr/include/xlocale.h:
+
+/usr/include/strings.h:
+
+/usr/include/sys/string.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/machine/stdlib.h:
+
+/usr/include/cygwin/stdlib.h:
+
+/usr/include/cygwin/wait.h:
+
+/usr/include/fcntl.h:
+
+/usr/include/sys/fcntl.h:
+
+/usr/include/sys/_default_fcntl.h:
+
+/usr/include/sys/stat.h:
+
+/usr/include/time.h:
+
+/usr/include/machine/time.h:
+
+/usr/include/cygwin/time.h:
+
+/usr/include/signal.h:
+
+/usr/include/sys/signal.h:
+
+/usr/include/cygwin/signal.h:
+
+/usr/include/sys/ucontext.h:
+
+/usr/include/cygwin/stat.h:
+
+/usr/include/sys/time.h:
+
+/usr/include/machine/_time.h:
+
+../../binutils-2.30/binutils/../include/binary-io.h:
+
+/usr/include/io.h:
+
+/usr/include/locale.h:
+
+/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/limits.h:
+
+/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/syslimits.h:
+
+/usr/include/limits.h:
+
+/usr/include/features.h:
+
+/usr/include/assert.h:
+
+../../binutils-2.30/binutils/../zlib/zlib.h:
+
+../../binutils-2.30/binutils/../zlib/zconf.h:
+
+/usr/include/wchar.h:
+
+../bfd/bfd.h:
+
+../../binutils-2.30/binutils/../include/symcat.h:
+
+../../binutils-2.30/binutils/bucomm.h:
+
+../../binutils-2.30/binutils/elfcomm.h:
+
+../../binutils-2.30/binutils/../include/aout/ar.h:
+
+../../binutils-2.30/binutils/dwarf.h:
+
+../../binutils-2.30/binutils/../include/dwarf2.h:
+
+../../binutils-2.30/binutils/../include/dwarf2.def:
+
+../../binutils-2.30/binutils/../include/elf/common.h:
+
+../../binutils-2.30/binutils/../include/elf/external.h:
+
+../../binutils-2.30/binutils/../include/elf/internal.h:
+
+../../binutils-2.30/binutils/../include/elf/h8.h:
+
+../../binutils-2.30/binutils/../include/elf/reloc-macros.h:
+
+../../binutils-2.30/binutils/../include/elf/aarch64.h:
+
+../../binutils-2.30/binutils/../include/elf/alpha.h:
+
+../../binutils-2.30/binutils/../include/elf/arc.h:
+
+../../binutils-2.30/binutils/../include/elf/arc-reloc.def:
+
+../../binutils-2.30/binutils/../include/elf/arm.h:
+
+../../binutils-2.30/binutils/../include/elf/avr.h:
+
+../../binutils-2.30/binutils/../include/elf/bfin.h:
+
+../../binutils-2.30/binutils/../include/elf/cr16.h:
+
+../../binutils-2.30/binutils/../include/elf/cris.h:
+
+../../binutils-2.30/binutils/../include/elf/crx.h:
+
+../../binutils-2.30/binutils/../include/elf/d10v.h:
+
+../../binutils-2.30/binutils/../include/elf/d30v.h:
+
+../../binutils-2.30/binutils/../include/elf/dlx.h:
+
+../../binutils-2.30/binutils/../include/elf/epiphany.h:
+
+../../binutils-2.30/binutils/../include/elf/fr30.h:
+
+../../binutils-2.30/binutils/../include/elf/frv.h:
+
+../../binutils-2.30/binutils/../include/elf/ft32.h:
+
+../../binutils-2.30/binutils/../include/elf/hppa.h:
+
+../../binutils-2.30/binutils/../include/elf/i386.h:
+
+../../binutils-2.30/binutils/../include/elf/i370.h:
+
+../../binutils-2.30/binutils/../include/elf/i860.h:
+
+../../binutils-2.30/binutils/../include/elf/i960.h:
+
+../../binutils-2.30/binutils/../include/elf/ia64.h:
+
+../../binutils-2.30/binutils/../include/elf/ip2k.h:
+
+../../binutils-2.30/binutils/../include/elf/lm32.h:
+
+../../binutils-2.30/binutils/../include/elf/iq2000.h:
+
+../../binutils-2.30/binutils/../include/elf/m32c.h:
+
+../../binutils-2.30/binutils/../include/elf/m32r.h:
+
+../../binutils-2.30/binutils/../include/elf/m68k.h:
+
+../../binutils-2.30/binutils/../include/elf/m68hc11.h:
+
+../../binutils-2.30/binutils/../include/elf/mcore.h:
+
+../../binutils-2.30/binutils/../include/elf/mep.h:
+
+../../binutils-2.30/binutils/../include/elf/metag.h:
+
+../../binutils-2.30/binutils/../include/elf/microblaze.h:
+
+../../binutils-2.30/binutils/../include/elf/mips.h:
+
+../../binutils-2.30/binutils/../include/elf/mmix.h:
+
+../../binutils-2.30/binutils/../include/elf/mn10200.h:
+
+../../binutils-2.30/binutils/../include/elf/mn10300.h:
+
+../../binutils-2.30/binutils/../include/elf/moxie.h:
+
+../../binutils-2.30/binutils/../include/elf/mt.h:
+
+../../binutils-2.30/binutils/../include/elf/msp430.h:
+
+../../binutils-2.30/binutils/../include/elf/nds32.h:
+
+../../binutils-2.30/binutils/../include/elf/nios2.h:
+
+../../binutils-2.30/binutils/../include/elf/or1k.h:
+
+../../binutils-2.30/binutils/../include/elf/pj.h:
+
+../../binutils-2.30/binutils/../include/elf/ppc.h:
+
+../../binutils-2.30/binutils/../include/elf/ppc64.h:
+
+../../binutils-2.30/binutils/../include/elf/pru.h:
+
+../../binutils-2.30/binutils/../include/elf/riscv.h:
+
+../../binutils-2.30/binutils/../include/libiberty.h:
+
+../../binutils-2.30/binutils/../include/ansidecl.h:
+
+../../binutils-2.30/binutils/../include/elf/rl78.h:
+
+../../binutils-2.30/binutils/../include/elf/rx.h:
+
+../../binutils-2.30/binutils/../include/elf/s390.h:
+
+../../binutils-2.30/binutils/../include/elf/score.h:
+
+../../binutils-2.30/binutils/../include/elf/sh.h:
+
+../../binutils-2.30/binutils/../include/elf/sparc.h:
+
+../../binutils-2.30/binutils/../include/elf/spu.h:
+
+../../binutils-2.30/binutils/../include/elf/tic6x.h:
+
+../../binutils-2.30/binutils/../include/elf/tic6x-attrs.h:
+
+../../binutils-2.30/binutils/../include/elf/tilegx.h:
+
+../../binutils-2.30/binutils/../include/elf/tilepro.h:
+
+../../binutils-2.30/binutils/../include/elf/v850.h:
+
+../../binutils-2.30/binutils/../include/elf/vax.h:
+
+../../binutils-2.30/binutils/../include/elf/visium.h:
+
+../../binutils-2.30/binutils/../include/elf/wasm32.h:
+
+../../binutils-2.30/binutils/../include/elf/x86-64.h:
+
+../../binutils-2.30/binutils/../include/elf/xc16x.h:
+
+../../binutils-2.30/binutils/../include/elf/xgate.h:
+
+../../binutils-2.30/binutils/../include/elf/xstormy16.h:
+
+../../binutils-2.30/binutils/../include/elf/xtensa.h:
+
+../../binutils-2.30/binutils/../include/safe-ctype.h:
+
+/usr/include/ctype.h:
+
+../../binutils-2.30/binutils/../include/filenames.h:
+
+../../binutils-2.30/binutils/../include/hashtab.h:
+
+../../binutils-2.30/binutils/unwind-ia64.h:

@@ -1,0 +1,245 @@
+_umoddi3.o: ../../../gcc-7.3.0/libgcc/libgcc2.c ../.././gcc/tconfig.h \
+ ../.././gcc/auto-host.h /home/Hazel/gcc-7.3.0/include/ansidecl.h \
+ /home/Hazel/gcc-7.3.0/gcc/config/i386/xm-cygwin.h \
+ /home/Hazel/gcc-7.3.0/gcc/tsystem.h \
+ /home/Hazel/build-gcc/gcc/include/stddef.h \
+ /home/Hazel/build-gcc/gcc/include/float.h \
+ /home/Hazel/build-gcc/gcc/include/stdarg.h /usr/include/stdio.h \
+ /usr/include/_ansi.h /usr/include/newlib.h \
+ /usr/include/_newlib_version.h /usr/include/sys/config.h \
+ /usr/include/machine/ieeefp.h /usr/include/sys/features.h \
+ /usr/include/cygwin/config.h /usr/include/sys/cdefs.h \
+ /usr/include/machine/_default_types.h /usr/include/sys/reent.h \
+ /usr/include/_ansi.h /usr/include/sys/_types.h \
+ /usr/include/machine/_types.h /usr/include/sys/lock.h \
+ /usr/include/sys/types.h /usr/include/sys/_stdint.h \
+ /usr/include/machine/endian.h /usr/include/machine/_endian.h \
+ /usr/include/bits/endian.h /usr/include/sys/select.h \
+ /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+ /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+ /usr/include/sys/_pthreadtypes.h /usr/include/machine/types.h \
+ /usr/include/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/bits/wordsize.h /usr/include/sys/sysmacros.h \
+ /usr/include/sys/stdio.h /usr/include/errno.h /usr/include/sys/errno.h \
+ /usr/include/string.h /usr/include/xlocale.h /usr/include/strings.h \
+ /usr/include/sys/string.h /usr/include/stdlib.h \
+ /usr/include/machine/stdlib.h /usr/include/alloca.h \
+ /usr/include/cygwin/stdlib.h /usr/include/cygwin/wait.h \
+ /usr/include/unistd.h /usr/include/sys/unistd.h \
+ /home/Hazel/gcc-7.3.0/include/getopt.h \
+ /home/Hazel/build-gcc/gcc/include-fixed/limits.h \
+ /home/Hazel/build-gcc/gcc/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/features.h /usr/include/time.h \
+ /usr/include/machine/time.h /usr/include/cygwin/time.h \
+ /usr/include/signal.h /usr/include/sys/signal.h \
+ /usr/include/cygwin/signal.h /usr/include/sys/ucontext.h \
+ /home/Hazel/gcc-7.3.0/include/filenames.h \
+ /home/Hazel/gcc-7.3.0/include/hashtab.h \
+ /home/Hazel/gcc-7.3.0/include/ansidecl.h \
+ /home/Hazel/gcc-7.3.0/gcc/coretypes.h ../.././gcc/tm.h \
+ ../.././gcc/options.h /home/Hazel/gcc-7.3.0/gcc/flag-types.h \
+ /home/Hazel/gcc-7.3.0/gcc/config/i386/i386-opts.h \
+ /home/Hazel/gcc-7.3.0/gcc/config/i386/stringop.def \
+ ../.././gcc/insn-constants.h \
+ /home/Hazel/gcc-7.3.0/gcc/config/vxworks-dummy.h \
+ /home/Hazel/gcc-7.3.0/gcc/config/i386/biarch64.h \
+ /home/Hazel/gcc-7.3.0/gcc/config/i386/i386.h \
+ /home/Hazel/gcc-7.3.0/gcc/config/i386/x86-tune.def \
+ /home/Hazel/gcc-7.3.0/gcc/config/i386/unix.h \
+ /home/Hazel/gcc-7.3.0/gcc/config/i386/bsd.h \
+ /home/Hazel/gcc-7.3.0/gcc/config/i386/gas.h \
+ /home/Hazel/gcc-7.3.0/gcc/config/dbxcoff.h \
+ /home/Hazel/gcc-7.3.0/gcc/config/i386/cygming.h \
+ /home/Hazel/gcc-7.3.0/gcc/config/i386/cygwin.h \
+ /home/Hazel/gcc-7.3.0/gcc/config/i386/cygwin-w64.h \
+ /home/Hazel/gcc-7.3.0/gcc/config/i386/cygwin-stdint.h \
+ /home/Hazel/gcc-7.3.0/gcc/config/initfini-array.h \
+ ../.././gcc/insn-modes.h /home/Hazel/gcc-7.3.0/gcc/defaults.h \
+ libgcc_tm.h ../../../gcc-7.3.0/libgcc/libgcc2.h \
+ /home/Hazel/gcc-7.3.0/include/longlong.h
+
+../.././gcc/tconfig.h:
+
+../.././gcc/auto-host.h:
+
+/home/Hazel/gcc-7.3.0/include/ansidecl.h:
+
+/home/Hazel/gcc-7.3.0/gcc/config/i386/xm-cygwin.h:
+
+/home/Hazel/gcc-7.3.0/gcc/tsystem.h:
+
+/home/Hazel/build-gcc/gcc/include/stddef.h:
+
+/home/Hazel/build-gcc/gcc/include/float.h:
+
+/home/Hazel/build-gcc/gcc/include/stdarg.h:
+
+/usr/include/stdio.h:
+
+/usr/include/_ansi.h:
+
+/usr/include/newlib.h:
+
+/usr/include/_newlib_version.h:
+
+/usr/include/sys/config.h:
+
+/usr/include/machine/ieeefp.h:
+
+/usr/include/sys/features.h:
+
+/usr/include/cygwin/config.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/machine/_default_types.h:
+
+/usr/include/sys/reent.h:
+
+/usr/include/_ansi.h:
+
+/usr/include/sys/_types.h:
+
+/usr/include/machine/_types.h:
+
+/usr/include/sys/lock.h:
+
+/usr/include/sys/types.h:
+
+/usr/include/sys/_stdint.h:
+
+/usr/include/machine/endian.h:
+
+/usr/include/machine/_endian.h:
+
+/usr/include/bits/endian.h:
+
+/usr/include/sys/select.h:
+
+/usr/include/sys/_sigset.h:
+
+/usr/include/sys/_timeval.h:
+
+/usr/include/sys/timespec.h:
+
+/usr/include/sys/_timespec.h:
+
+/usr/include/sys/_pthreadtypes.h:
+
+/usr/include/machine/types.h:
+
+/usr/include/endian.h:
+
+/usr/include/bits/byteswap.h:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/sys/sysmacros.h:
+
+/usr/include/sys/stdio.h:
+
+/usr/include/errno.h:
+
+/usr/include/sys/errno.h:
+
+/usr/include/string.h:
+
+/usr/include/xlocale.h:
+
+/usr/include/strings.h:
+
+/usr/include/sys/string.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/machine/stdlib.h:
+
+/usr/include/alloca.h:
+
+/usr/include/cygwin/stdlib.h:
+
+/usr/include/cygwin/wait.h:
+
+/usr/include/unistd.h:
+
+/usr/include/sys/unistd.h:
+
+/home/Hazel/gcc-7.3.0/include/getopt.h:
+
+/home/Hazel/build-gcc/gcc/include-fixed/limits.h:
+
+/home/Hazel/build-gcc/gcc/include-fixed/syslimits.h:
+
+/usr/include/limits.h:
+
+/usr/include/features.h:
+
+/usr/include/time.h:
+
+/usr/include/machine/time.h:
+
+/usr/include/cygwin/time.h:
+
+/usr/include/signal.h:
+
+/usr/include/sys/signal.h:
+
+/usr/include/cygwin/signal.h:
+
+/usr/include/sys/ucontext.h:
+
+/home/Hazel/gcc-7.3.0/include/filenames.h:
+
+/home/Hazel/gcc-7.3.0/include/hashtab.h:
+
+/home/Hazel/gcc-7.3.0/include/ansidecl.h:
+
+/home/Hazel/gcc-7.3.0/gcc/coretypes.h:
+
+../.././gcc/tm.h:
+
+../.././gcc/options.h:
+
+/home/Hazel/gcc-7.3.0/gcc/flag-types.h:
+
+/home/Hazel/gcc-7.3.0/gcc/config/i386/i386-opts.h:
+
+/home/Hazel/gcc-7.3.0/gcc/config/i386/stringop.def:
+
+../.././gcc/insn-constants.h:
+
+/home/Hazel/gcc-7.3.0/gcc/config/vxworks-dummy.h:
+
+/home/Hazel/gcc-7.3.0/gcc/config/i386/biarch64.h:
+
+/home/Hazel/gcc-7.3.0/gcc/config/i386/i386.h:
+
+/home/Hazel/gcc-7.3.0/gcc/config/i386/x86-tune.def:
+
+/home/Hazel/gcc-7.3.0/gcc/config/i386/unix.h:
+
+/home/Hazel/gcc-7.3.0/gcc/config/i386/bsd.h:
+
+/home/Hazel/gcc-7.3.0/gcc/config/i386/gas.h:
+
+/home/Hazel/gcc-7.3.0/gcc/config/dbxcoff.h:
+
+/home/Hazel/gcc-7.3.0/gcc/config/i386/cygming.h:
+
+/home/Hazel/gcc-7.3.0/gcc/config/i386/cygwin.h:
+
+/home/Hazel/gcc-7.3.0/gcc/config/i386/cygwin-w64.h:
+
+/home/Hazel/gcc-7.3.0/gcc/config/i386/cygwin-stdint.h:
+
+/home/Hazel/gcc-7.3.0/gcc/config/initfini-array.h:
+
+../.././gcc/insn-modes.h:
+
+/home/Hazel/gcc-7.3.0/gcc/defaults.h:
+
+libgcc_tm.h:
+
+../../../gcc-7.3.0/libgcc/libgcc2.h:
+
+/home/Hazel/gcc-7.3.0/include/longlong.h:

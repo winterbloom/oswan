@@ -1,0 +1,26 @@
+mkdeps.o: ../../gcc-7.3.0/libcpp/mkdeps.c config.h \
+ ../../gcc-7.3.0/libcpp/system.h ../intl/libintl.h \
+ /home/Hazel/gcc-7.3.0/include/filenames.h \
+ /home/Hazel/gcc-7.3.0/include/hashtab.h \
+ /home/Hazel/gcc-7.3.0/include/ansidecl.h \
+ /home/Hazel/gcc-7.3.0/include/libiberty.h \
+ /home/Hazel/gcc-7.3.0/include/safe-ctype.h \
+ ../../gcc-7.3.0/libcpp/include/mkdeps.h
+
+config.h:
+
+../../gcc-7.3.0/libcpp/system.h:
+
+../intl/libintl.h:
+
+/home/Hazel/gcc-7.3.0/include/filenames.h:
+
+/home/Hazel/gcc-7.3.0/include/hashtab.h:
+
+/home/Hazel/gcc-7.3.0/include/ansidecl.h:
+
+/home/Hazel/gcc-7.3.0/include/libiberty.h:
+
+/home/Hazel/gcc-7.3.0/include/safe-ctype.h:
+
+../../gcc-7.3.0/libcpp/include/mkdeps.h:

@@ -1,0 +1,95 @@
+hwint.o: ../../gcc-7.3.0/gcc/hwint.c config.h auto-host.h \
+ /home/Hazel/gcc-7.3.0/include/ansidecl.h \
+ ../../gcc-7.3.0/gcc/config/i386/xm-cygwin.h ../../gcc-7.3.0/gcc/system.h \
+ /home/Hazel/gcc-7.3.0/include/safe-ctype.h \
+ /home/Hazel/gcc-7.3.0/include/filenames.h \
+ /home/Hazel/gcc-7.3.0/include/hashtab.h \
+ /home/Hazel/gcc-7.3.0/include/ansidecl.h \
+ /home/Hazel/gcc-7.3.0/include/libiberty.h ../../gcc-7.3.0/gcc/hwint.h \
+ ../../gcc-7.3.0/gcc/coretypes.h ../../gcc-7.3.0/gcc/machmode.h \
+ insn-modes.h ../../gcc-7.3.0/gcc/mode-classes.def \
+ ../../gcc-7.3.0/gcc/signop.h ../../gcc-7.3.0/gcc/wide-int.h \
+ ../../gcc-7.3.0/gcc/double-int.h ../../gcc-7.3.0/gcc/real.h \
+ ../../gcc-7.3.0/gcc/fixed-value.h ../../gcc-7.3.0/gcc/hash-table.h \
+ ../../gcc-7.3.0/gcc/statistics.h ../../gcc-7.3.0/gcc/ggc.h gtype-desc.h \
+ ../../gcc-7.3.0/gcc/vec.h /home/Hazel/gcc-7.3.0/include/hashtab.h \
+ ../../gcc-7.3.0/gcc/inchash.h ../../gcc-7.3.0/gcc/mem-stats-traits.h \
+ ../../gcc-7.3.0/gcc/hash-traits.h ../../gcc-7.3.0/gcc/hash-map-traits.h \
+ ../../gcc-7.3.0/gcc/mem-stats.h ../../gcc-7.3.0/gcc/hash-map.h \
+ ../../gcc-7.3.0/gcc/hash-set.h ../../gcc-7.3.0/gcc/input.h \
+ /home/Hazel/gcc-7.3.0/libcpp/include/line-map.h \
+ ../../gcc-7.3.0/gcc/is-a.h ../../gcc-7.3.0/gcc/memory-block.h
+
+config.h:
+
+auto-host.h:
+
+/home/Hazel/gcc-7.3.0/include/ansidecl.h:
+
+../../gcc-7.3.0/gcc/config/i386/xm-cygwin.h:
+
+../../gcc-7.3.0/gcc/system.h:
+
+/home/Hazel/gcc-7.3.0/include/safe-ctype.h:
+
+/home/Hazel/gcc-7.3.0/include/filenames.h:
+
+/home/Hazel/gcc-7.3.0/include/hashtab.h:
+
+/home/Hazel/gcc-7.3.0/include/ansidecl.h:
+
+/home/Hazel/gcc-7.3.0/include/libiberty.h:
+
+../../gcc-7.3.0/gcc/hwint.h:
+
+../../gcc-7.3.0/gcc/coretypes.h:
+
+../../gcc-7.3.0/gcc/machmode.h:
+
+insn-modes.h:
+
+../../gcc-7.3.0/gcc/mode-classes.def:
+
+../../gcc-7.3.0/gcc/signop.h:
+
+../../gcc-7.3.0/gcc/wide-int.h:
+
+../../gcc-7.3.0/gcc/double-int.h:
+
+../../gcc-7.3.0/gcc/real.h:
+
+../../gcc-7.3.0/gcc/fixed-value.h:
+
+../../gcc-7.3.0/gcc/hash-table.h:
+
+../../gcc-7.3.0/gcc/statistics.h:
+
+../../gcc-7.3.0/gcc/ggc.h:
+
+gtype-desc.h:
+
+../../gcc-7.3.0/gcc/vec.h:
+
+/home/Hazel/gcc-7.3.0/include/hashtab.h:
+
+../../gcc-7.3.0/gcc/inchash.h:
+
+../../gcc-7.3.0/gcc/mem-stats-traits.h:
+
+../../gcc-7.3.0/gcc/hash-traits.h:
+
+../../gcc-7.3.0/gcc/hash-map-traits.h:
+
+../../gcc-7.3.0/gcc/mem-stats.h:
+
+../../gcc-7.3.0/gcc/hash-map.h:
+
+../../gcc-7.3.0/gcc/hash-set.h:
+
+../../gcc-7.3.0/gcc/input.h:
+
+/home/Hazel/gcc-7.3.0/libcpp/include/line-map.h:
+
+../../gcc-7.3.0/gcc/is-a.h:
+
+../../gcc-7.3.0/gcc/memory-block.h:

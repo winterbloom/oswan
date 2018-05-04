@@ -1,0 +1,33 @@
+gcc-nm.o: gcc-nm.c config.h auto-host.h \
+ /home/Hazel/gcc-7.3.0/include/ansidecl.h \
+ ../../gcc-7.3.0/gcc/config/i386/xm-cygwin.h ../../gcc-7.3.0/gcc/system.h \
+ /home/Hazel/gcc-7.3.0/include/safe-ctype.h \
+ /home/Hazel/gcc-7.3.0/include/filenames.h \
+ /home/Hazel/gcc-7.3.0/include/hashtab.h \
+ /home/Hazel/gcc-7.3.0/include/ansidecl.h \
+ /home/Hazel/gcc-7.3.0/include/libiberty.h ../../gcc-7.3.0/gcc/hwint.h \
+ ../../gcc-7.3.0/gcc/file-find.h
+
+config.h:
+
+auto-host.h:
+
+/home/Hazel/gcc-7.3.0/include/ansidecl.h:
+
+../../gcc-7.3.0/gcc/config/i386/xm-cygwin.h:
+
+../../gcc-7.3.0/gcc/system.h:
+
+/home/Hazel/gcc-7.3.0/include/safe-ctype.h:
+
+/home/Hazel/gcc-7.3.0/include/filenames.h:
+
+/home/Hazel/gcc-7.3.0/include/hashtab.h:
+
+/home/Hazel/gcc-7.3.0/include/ansidecl.h:
+
+/home/Hazel/gcc-7.3.0/include/libiberty.h:
+
+../../gcc-7.3.0/gcc/hwint.h:
+
+../../gcc-7.3.0/gcc/file-find.h:

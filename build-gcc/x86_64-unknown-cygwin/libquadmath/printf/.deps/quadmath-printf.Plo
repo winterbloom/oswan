@@ -1,0 +1,155 @@
+printf/quadmath-printf.lo: \
+ ../../../gcc-7.3.0/libquadmath/printf/quadmath-printf.c config.h \
+ /home/Hazel/build-gcc/gcc/include/stdarg.h /usr/include/string.h \
+ /usr/include/_ansi.h /usr/include/newlib.h \
+ /usr/include/_newlib_version.h /usr/include/sys/config.h \
+ /usr/include/machine/ieeefp.h /usr/include/sys/features.h \
+ /usr/include/cygwin/config.h /usr/include/sys/reent.h \
+ /usr/include/_ansi.h /home/Hazel/build-gcc/gcc/include/stddef.h \
+ /usr/include/sys/_types.h /usr/include/machine/_types.h \
+ /usr/include/machine/_default_types.h /usr/include/sys/lock.h \
+ /usr/include/sys/cdefs.h /usr/include/xlocale.h /usr/include/strings.h \
+ /usr/include/sys/string.h /usr/include/stdio.h /usr/include/sys/types.h \
+ /usr/include/sys/_stdint.h /usr/include/machine/endian.h \
+ /usr/include/machine/_endian.h /usr/include/bits/endian.h \
+ /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+ /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+ /usr/include/sys/_timespec.h /usr/include/sys/_pthreadtypes.h \
+ /usr/include/machine/types.h /usr/include/endian.h \
+ /usr/include/bits/byteswap.h /usr/include/bits/wordsize.h \
+ /usr/include/sys/sysmacros.h /usr/include/sys/stdio.h \
+ ../../../gcc-7.3.0/libquadmath/printf/quadmath-printf.h \
+ /usr/include/stdlib.h /usr/include/machine/stdlib.h \
+ /usr/include/alloca.h /usr/include/cygwin/stdlib.h \
+ /usr/include/cygwin/wait.h \
+ /home/Hazel/build-gcc/gcc/include-fixed/limits.h \
+ /home/Hazel/build-gcc/gcc/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/features.h /usr/include/langinfo.h \
+ /usr/include/ctype.h /usr/include/wchar.h /usr/include/wctype.h \
+ /usr/include/locale.h ../../../gcc-7.3.0/libquadmath/quadmath-imp.h \
+ /home/Hazel/build-gcc/gcc/include/stdint.h /usr/include/stdint.h \
+ /usr/include/sys/_intsup.h ../../../gcc-7.3.0/libquadmath/quadmath.h \
+ ../../../gcc-7.3.0/libquadmath/printf/gmp-impl.h \
+ /home/Hazel/gcc-7.3.0/include/longlong.h
+
+config.h:
+
+/home/Hazel/build-gcc/gcc/include/stdarg.h:
+
+/usr/include/string.h:
+
+/usr/include/_ansi.h:
+
+/usr/include/newlib.h:
+
+/usr/include/_newlib_version.h:
+
+/usr/include/sys/config.h:
+
+/usr/include/machine/ieeefp.h:
+
+/usr/include/sys/features.h:
+
+/usr/include/cygwin/config.h:
+
+/usr/include/sys/reent.h:
+
+/usr/include/_ansi.h:
+
+/home/Hazel/build-gcc/gcc/include/stddef.h:
+
+/usr/include/sys/_types.h:
+
+/usr/include/machine/_types.h:
+
+/usr/include/machine/_default_types.h:
+
+/usr/include/sys/lock.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/xlocale.h:
+
+/usr/include/strings.h:
+
+/usr/include/sys/string.h:
+
+/usr/include/stdio.h:
+
+/usr/include/sys/types.h:
+
+/usr/include/sys/_stdint.h:
+
+/usr/include/machine/endian.h:
+
+/usr/include/machine/_endian.h:
+
+/usr/include/bits/endian.h:
+
+/usr/include/sys/select.h:
+
+/usr/include/sys/_sigset.h:
+
+/usr/include/sys/_timeval.h:
+
+/usr/include/sys/timespec.h:
+
+/usr/include/sys/_timespec.h:
+
+/usr/include/sys/_pthreadtypes.h:
+
+/usr/include/machine/types.h:
+
+/usr/include/endian.h:
+
+/usr/include/bits/byteswap.h:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/sys/sysmacros.h:
+
+/usr/include/sys/stdio.h:
+
+../../../gcc-7.3.0/libquadmath/printf/quadmath-printf.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/machine/stdlib.h:
+
+/usr/include/alloca.h:
+
+/usr/include/cygwin/stdlib.h:
+
+/usr/include/cygwin/wait.h:
+
+/home/Hazel/build-gcc/gcc/include-fixed/limits.h:
+
+/home/Hazel/build-gcc/gcc/include-fixed/syslimits.h:
+
+/usr/include/limits.h:
+
+/usr/include/features.h:
+
+/usr/include/langinfo.h:
+
+/usr/include/ctype.h:
+
+/usr/include/wchar.h:
+
+/usr/include/wctype.h:
+
+/usr/include/locale.h:
+
+../../../gcc-7.3.0/libquadmath/quadmath-imp.h:
+
+/home/Hazel/build-gcc/gcc/include/stdint.h:
+
+/usr/include/stdint.h:
+
+/usr/include/sys/_intsup.h:
+
+../../../gcc-7.3.0/libquadmath/quadmath.h:
+
+../../../gcc-7.3.0/libquadmath/printf/gmp-impl.h:
+
+/home/Hazel/gcc-7.3.0/include/longlong.h:

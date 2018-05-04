@@ -1,0 +1,53 @@
+line-map.o: ../../gcc-7.3.0/libcpp/line-map.c config.h \
+ ../../gcc-7.3.0/libcpp/system.h ../intl/libintl.h \
+ /home/Hazel/gcc-7.3.0/include/filenames.h \
+ /home/Hazel/gcc-7.3.0/include/hashtab.h \
+ /home/Hazel/gcc-7.3.0/include/ansidecl.h \
+ /home/Hazel/gcc-7.3.0/include/libiberty.h \
+ /home/Hazel/gcc-7.3.0/include/safe-ctype.h \
+ ../../gcc-7.3.0/libcpp/include/line-map.h \
+ ../../gcc-7.3.0/libcpp/include/cpplib.h \
+ ../../gcc-7.3.0/libcpp/include/symtab.h \
+ /home/Hazel/gcc-7.3.0/include/obstack.h \
+ ../../gcc-7.3.0/libcpp/include/line-map.h \
+ ../../gcc-7.3.0/libcpp/internal.h \
+ ../../gcc-7.3.0/libcpp/include/symtab.h \
+ ../../gcc-7.3.0/libcpp/include/cpp-id-data.h \
+ ../../gcc-7.3.0/libcpp/include/cpplib.h \
+ /home/Hazel/gcc-7.3.0/include/hashtab.h
+
+config.h:
+
+../../gcc-7.3.0/libcpp/system.h:
+
+../intl/libintl.h:
+
+/home/Hazel/gcc-7.3.0/include/filenames.h:
+
+/home/Hazel/gcc-7.3.0/include/hashtab.h:
+
+/home/Hazel/gcc-7.3.0/include/ansidecl.h:
+
+/home/Hazel/gcc-7.3.0/include/libiberty.h:
+
+/home/Hazel/gcc-7.3.0/include/safe-ctype.h:
+
+../../gcc-7.3.0/libcpp/include/line-map.h:
+
+../../gcc-7.3.0/libcpp/include/cpplib.h:
+
+../../gcc-7.3.0/libcpp/include/symtab.h:
+
+/home/Hazel/gcc-7.3.0/include/obstack.h:
+
+../../gcc-7.3.0/libcpp/include/line-map.h:
+
+../../gcc-7.3.0/libcpp/internal.h:
+
+../../gcc-7.3.0/libcpp/include/symtab.h:
+
+../../gcc-7.3.0/libcpp/include/cpp-id-data.h:
+
+../../gcc-7.3.0/libcpp/include/cpplib.h:
+
+/home/Hazel/gcc-7.3.0/include/hashtab.h:

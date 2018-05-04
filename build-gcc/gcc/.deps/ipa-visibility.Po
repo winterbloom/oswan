@@ -1,0 +1,248 @@
+ipa-visibility.o: ../../gcc-7.3.0/gcc/ipa-visibility.c config.h \
+ auto-host.h /home/Hazel/gcc-7.3.0/include/ansidecl.h \
+ ../../gcc-7.3.0/gcc/config/i386/xm-cygwin.h ../../gcc-7.3.0/gcc/system.h \
+ /home/Hazel/gcc-7.3.0/include/safe-ctype.h \
+ /home/Hazel/gcc-7.3.0/include/filenames.h \
+ /home/Hazel/gcc-7.3.0/include/hashtab.h \
+ /home/Hazel/gcc-7.3.0/include/ansidecl.h \
+ /home/Hazel/gcc-7.3.0/include/libiberty.h ../../gcc-7.3.0/gcc/hwint.h \
+ ../../gcc-7.3.0/gcc/coretypes.h ../../gcc-7.3.0/gcc/machmode.h \
+ insn-modes.h ../../gcc-7.3.0/gcc/mode-classes.def \
+ ../../gcc-7.3.0/gcc/signop.h ../../gcc-7.3.0/gcc/wide-int.h \
+ ../../gcc-7.3.0/gcc/double-int.h ../../gcc-7.3.0/gcc/real.h \
+ ../../gcc-7.3.0/gcc/fixed-value.h ../../gcc-7.3.0/gcc/hash-table.h \
+ ../../gcc-7.3.0/gcc/statistics.h ../../gcc-7.3.0/gcc/ggc.h gtype-desc.h \
+ ../../gcc-7.3.0/gcc/vec.h /home/Hazel/gcc-7.3.0/include/hashtab.h \
+ ../../gcc-7.3.0/gcc/inchash.h ../../gcc-7.3.0/gcc/mem-stats-traits.h \
+ ../../gcc-7.3.0/gcc/hash-traits.h ../../gcc-7.3.0/gcc/hash-map-traits.h \
+ ../../gcc-7.3.0/gcc/mem-stats.h ../../gcc-7.3.0/gcc/hash-map.h \
+ ../../gcc-7.3.0/gcc/hash-set.h ../../gcc-7.3.0/gcc/input.h \
+ /home/Hazel/gcc-7.3.0/libcpp/include/line-map.h \
+ ../../gcc-7.3.0/gcc/is-a.h ../../gcc-7.3.0/gcc/memory-block.h tm.h \
+ options.h ../../gcc-7.3.0/gcc/flag-types.h \
+ ../../gcc-7.3.0/gcc/config/i386/i386-opts.h \
+ ../../gcc-7.3.0/gcc/config/i386/stringop.def insn-constants.h \
+ ../../gcc-7.3.0/gcc/config/vxworks-dummy.h \
+ ../../gcc-7.3.0/gcc/config/i386/biarch64.h \
+ ../../gcc-7.3.0/gcc/config/i386/i386.h \
+ ../../gcc-7.3.0/gcc/config/i386/x86-tune.def \
+ ../../gcc-7.3.0/gcc/config/i386/unix.h \
+ ../../gcc-7.3.0/gcc/config/i386/bsd.h \
+ ../../gcc-7.3.0/gcc/config/i386/gas.h \
+ ../../gcc-7.3.0/gcc/config/dbxcoff.h \
+ ../../gcc-7.3.0/gcc/config/i386/cygming.h \
+ ../../gcc-7.3.0/gcc/config/i386/cygwin.h \
+ ../../gcc-7.3.0/gcc/config/i386/cygwin-w64.h \
+ ../../gcc-7.3.0/gcc/config/i386/cygwin-stdint.h \
+ ../../gcc-7.3.0/gcc/config/initfini-array.h insn-flags.h insn-modes.h \
+ ../../gcc-7.3.0/gcc/defaults.h ../../gcc-7.3.0/gcc/function.h \
+ ../../gcc-7.3.0/gcc/tree.h ../../gcc-7.3.0/gcc/tree-core.h \
+ /home/Hazel/gcc-7.3.0/libcpp/include/symtab.h \
+ /home/Hazel/gcc-7.3.0/include/obstack.h all-tree.def \
+ ../../gcc-7.3.0/gcc/tree.def ../../gcc-7.3.0/gcc/c-family/c-common.def \
+ ../../gcc-7.3.0/gcc/ada/gcc-interface/ada-tree.def \
+ ../../gcc-7.3.0/gcc/cp/cp-tree.def \
+ ../../gcc-7.3.0/gcc/objc/objc-tree.def ../../gcc-7.3.0/gcc/builtins.def \
+ ../../gcc-7.3.0/gcc/sync-builtins.def \
+ ../../gcc-7.3.0/gcc/omp-builtins.def \
+ ../../gcc-7.3.0/gcc/hsa-builtins.def \
+ ../../gcc-7.3.0/gcc/cilk-builtins.def \
+ ../../gcc-7.3.0/gcc/gtm-builtins.def ../../gcc-7.3.0/gcc/sanitizer.def \
+ ../../gcc-7.3.0/gcc/cilkplus.def ../../gcc-7.3.0/gcc/chkp-builtins.def \
+ ../../gcc-7.3.0/gcc/brig-builtins.def \
+ ../../gcc-7.3.0/gcc/internal-fn.def ../../gcc-7.3.0/gcc/treestruct.def \
+ tree-check.h ../../gcc-7.3.0/gcc/gimple-expr.h \
+ ../../gcc-7.3.0/gcc/tree-pass.h ../../gcc-7.3.0/gcc/timevar.h \
+ ../../gcc-7.3.0/gcc/timevar.def ../../gcc-7.3.0/gcc/dumpfile.h \
+ ../../gcc-7.3.0/gcc/cgraph.h ../../gcc-7.3.0/gcc/ipa-ref.h \
+ /home/Hazel/gcc-7.3.0/include/plugin-api.h \
+ ../../gcc-7.3.0/gcc/cif-code.def ../../gcc-7.3.0/gcc/calls.h \
+ ../../gcc-7.3.0/gcc/varasm.h
+
+config.h:
+
+auto-host.h:
+
+/home/Hazel/gcc-7.3.0/include/ansidecl.h:
+
+../../gcc-7.3.0/gcc/config/i386/xm-cygwin.h:
+
+../../gcc-7.3.0/gcc/system.h:
+
+/home/Hazel/gcc-7.3.0/include/safe-ctype.h:
+
+/home/Hazel/gcc-7.3.0/include/filenames.h:
+
+/home/Hazel/gcc-7.3.0/include/hashtab.h:
+
+/home/Hazel/gcc-7.3.0/include/ansidecl.h:
+
+/home/Hazel/gcc-7.3.0/include/libiberty.h:
+
+../../gcc-7.3.0/gcc/hwint.h:
+
+../../gcc-7.3.0/gcc/coretypes.h:
+
+../../gcc-7.3.0/gcc/machmode.h:
+
+insn-modes.h:
+
+../../gcc-7.3.0/gcc/mode-classes.def:
+
+../../gcc-7.3.0/gcc/signop.h:
+
+../../gcc-7.3.0/gcc/wide-int.h:
+
+../../gcc-7.3.0/gcc/double-int.h:
+
+../../gcc-7.3.0/gcc/real.h:
+
+../../gcc-7.3.0/gcc/fixed-value.h:
+
+../../gcc-7.3.0/gcc/hash-table.h:
+
+../../gcc-7.3.0/gcc/statistics.h:
+
+../../gcc-7.3.0/gcc/ggc.h:
+
+gtype-desc.h:
+
+../../gcc-7.3.0/gcc/vec.h:
+
+/home/Hazel/gcc-7.3.0/include/hashtab.h:
+
+../../gcc-7.3.0/gcc/inchash.h:
+
+../../gcc-7.3.0/gcc/mem-stats-traits.h:
+
+../../gcc-7.3.0/gcc/hash-traits.h:
+
+../../gcc-7.3.0/gcc/hash-map-traits.h:
+
+../../gcc-7.3.0/gcc/mem-stats.h:
+
+../../gcc-7.3.0/gcc/hash-map.h:
+
+../../gcc-7.3.0/gcc/hash-set.h:
+
+../../gcc-7.3.0/gcc/input.h:
+
+/home/Hazel/gcc-7.3.0/libcpp/include/line-map.h:
+
+../../gcc-7.3.0/gcc/is-a.h:
+
+../../gcc-7.3.0/gcc/memory-block.h:
+
+tm.h:
+
+options.h:
+
+../../gcc-7.3.0/gcc/flag-types.h:
+
+../../gcc-7.3.0/gcc/config/i386/i386-opts.h:
+
+../../gcc-7.3.0/gcc/config/i386/stringop.def:
+
+insn-constants.h:
+
+../../gcc-7.3.0/gcc/config/vxworks-dummy.h:
+
+../../gcc-7.3.0/gcc/config/i386/biarch64.h:
+
+../../gcc-7.3.0/gcc/config/i386/i386.h:
+
+../../gcc-7.3.0/gcc/config/i386/x86-tune.def:
+
+../../gcc-7.3.0/gcc/config/i386/unix.h:
+
+../../gcc-7.3.0/gcc/config/i386/bsd.h:
+
+../../gcc-7.3.0/gcc/config/i386/gas.h:
+
+../../gcc-7.3.0/gcc/config/dbxcoff.h:
+
+../../gcc-7.3.0/gcc/config/i386/cygming.h:
+
+../../gcc-7.3.0/gcc/config/i386/cygwin.h:
+
+../../gcc-7.3.0/gcc/config/i386/cygwin-w64.h:
+
+../../gcc-7.3.0/gcc/config/i386/cygwin-stdint.h:
+
+../../gcc-7.3.0/gcc/config/initfini-array.h:
+
+insn-flags.h:
+
+insn-modes.h:
+
+../../gcc-7.3.0/gcc/defaults.h:
+
+../../gcc-7.3.0/gcc/function.h:
+
+../../gcc-7.3.0/gcc/tree.h:
+
+../../gcc-7.3.0/gcc/tree-core.h:
+
+/home/Hazel/gcc-7.3.0/libcpp/include/symtab.h:
+
+/home/Hazel/gcc-7.3.0/include/obstack.h:
+
+all-tree.def:
+
+../../gcc-7.3.0/gcc/tree.def:
+
+../../gcc-7.3.0/gcc/c-family/c-common.def:
+
+../../gcc-7.3.0/gcc/ada/gcc-interface/ada-tree.def:
+
+../../gcc-7.3.0/gcc/cp/cp-tree.def:
+
+../../gcc-7.3.0/gcc/objc/objc-tree.def:
+
+../../gcc-7.3.0/gcc/builtins.def:
+
+../../gcc-7.3.0/gcc/sync-builtins.def:
+
+../../gcc-7.3.0/gcc/omp-builtins.def:
+
+../../gcc-7.3.0/gcc/hsa-builtins.def:
+
+../../gcc-7.3.0/gcc/cilk-builtins.def:
+
+../../gcc-7.3.0/gcc/gtm-builtins.def:
+
+../../gcc-7.3.0/gcc/sanitizer.def:
+
+../../gcc-7.3.0/gcc/cilkplus.def:
+
+../../gcc-7.3.0/gcc/chkp-builtins.def:
+
+../../gcc-7.3.0/gcc/brig-builtins.def:
+
+../../gcc-7.3.0/gcc/internal-fn.def:
+
+../../gcc-7.3.0/gcc/treestruct.def:
+
+tree-check.h:
+
+../../gcc-7.3.0/gcc/gimple-expr.h:
+
+../../gcc-7.3.0/gcc/tree-pass.h:
+
+../../gcc-7.3.0/gcc/timevar.h:
+
+../../gcc-7.3.0/gcc/timevar.def:
+
+../../gcc-7.3.0/gcc/dumpfile.h:
+
+../../gcc-7.3.0/gcc/cgraph.h:
+
+../../gcc-7.3.0/gcc/ipa-ref.h:
+
+/home/Hazel/gcc-7.3.0/include/plugin-api.h:
+
+../../gcc-7.3.0/gcc/cif-code.def:
+
+../../gcc-7.3.0/gcc/calls.h:
+
+../../gcc-7.3.0/gcc/varasm.h:
