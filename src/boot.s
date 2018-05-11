@@ -103,7 +103,7 @@ _start:
 	*/
 	cli
 1:	hlt
-	jump 1b
+	jmp 1b
 
 /*
 Set the size of the _start symbol to the current location '.' minus its start.
