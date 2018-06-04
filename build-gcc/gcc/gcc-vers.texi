@@ -1,5 +1,0 @@
-@set version-GCC 7.3.0
-@clear DEVELOPMENT
-@set srcdir /home/Hazel/build-gcc/gcc/../../gcc-7.3.0/gcc
-@set VERSION_PACKAGE (GCC) 
-@set BUGURL @uref{https://gcc.gnu.org/bugs/}

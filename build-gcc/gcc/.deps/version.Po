@@ -1,3 +1,0 @@
-version.o: ../../gcc-7.3.0/gcc/version.c ../../gcc-7.3.0/gcc/version.h
-
-../../gcc-7.3.0/gcc/version.h:

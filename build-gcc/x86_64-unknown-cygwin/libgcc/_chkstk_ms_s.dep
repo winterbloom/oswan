@@ -1,4 +1,0 @@
-_chkstk_ms_s.o: ../../../gcc-7.3.0/libgcc/config/i386/cygwin.S \
- ../.././gcc/auto-host.h
-
-../.././gcc/auto-host.h:

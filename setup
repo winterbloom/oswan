@@ -1,5 +1,0 @@
-export HOME="/home/Hazel/oswan"
-export PATH="$HOME/opt/cross/bin:$PATH"
-export PATH="/cygdrive/c/cygwin64/home/Hazel/oswan/opt/cross/bin:$PATH"
-export TARGET="i686-elf"
-echo "Successfully set up $TARGET-gcc"

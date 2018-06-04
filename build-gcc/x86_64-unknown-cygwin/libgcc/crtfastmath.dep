@@ -1,1 +1,0 @@
-crtfastmath.o: ../../../gcc-7.3.0/libgcc/config/i386/crtfastmath.c

@@ -1,6 +1,0 @@
-_chkstk_ms.o: ../../../gcc-7.3.0/libgcc/config/i386/cygwin.S \
- _chkstk_ms.vis ../.././gcc/auto-host.h
-
-_chkstk_ms.vis:
-
-../.././gcc/auto-host.h:
