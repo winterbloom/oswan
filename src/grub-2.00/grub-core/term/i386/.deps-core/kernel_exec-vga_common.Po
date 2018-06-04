@@ -1,1 +1,33 @@
-# dummy
+term/i386/kernel_exec-vga_common.o: term/i386/vga_common.c \
+ ../include/grub/i386/vga_common.h ../include/grub/types.h ../config.h \
+ ../include/grub/cpu/types.h ../include/grub/symbol.h \
+ ../include/grub/term.h ../include/grub/err.h ../include/grub/unicode.h \
+ ../include/grub/mm.h ../include/grub/misc.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/stdarg.h \
+ ../include/grub/i18n.h ../include/grub/list.h
+
+../include/grub/i386/vga_common.h:
+
+../include/grub/types.h:
+
+../config.h:
+
+../include/grub/cpu/types.h:
+
+../include/grub/symbol.h:
+
+../include/grub/term.h:
+
+../include/grub/err.h:
+
+../include/grub/unicode.h:
+
+../include/grub/mm.h:
+
+../include/grub/misc.h:
+
+/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/stdarg.h:
+
+../include/grub/i18n.h:
+
+../include/grub/list.h:

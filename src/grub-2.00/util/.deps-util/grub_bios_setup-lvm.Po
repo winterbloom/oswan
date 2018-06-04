@@ -1,1 +1,1 @@
-# dummy
+util/grub_bios_setup-lvm.o: util/lvm.c

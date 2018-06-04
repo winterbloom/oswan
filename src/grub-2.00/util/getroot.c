@@ -978,6 +978,11 @@ get_bootsec_serial (const char *os_dev, int mbr)
 
 #pragma GCC diagnostic warning "-Wdeprecated-declarations"
 
+
+int cygwin_conv_to_full_win32_path(const char*, char*);
+
+void cygwin_conv_to_full_posix_path(const char*, char*);
+
 char *
 grub_find_device (const char *path, dev_t dev)
 {
@@ -987,8 +992,10 @@ grub_find_device (const char *path, dev_t dev)
 
   /* Convert to full POSIX and Win32 path.  */
   char fullpath[PATH_MAX], winpath[PATH_MAX];
-  cygwin_conv_to_full_posix_path (path, fullpath);
-  cygwin_conv_to_full_win32_path (fullpath, winpath);
+  ssize_t size;
+  size = cygwin_conv_path (CCP_WIN_A_TO_POSIX, path, NULL, 0); 
+  cygwin_conv_path (CCP_WIN_A_TO_POSIX, path, fullpath, size);
+  cygwin_conv_path (CCP_POSIX_TO_WIN_A, fullpath, winpath, size);
 
   /* If identical, this is no real filesystem path.  */
   if (strcmp (fullpath, winpath) == 0)

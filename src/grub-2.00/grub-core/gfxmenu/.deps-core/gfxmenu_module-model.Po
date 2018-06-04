@@ -1,1 +1,1 @@
-# dummy
+gfxmenu/gfxmenu_module-model.o: gfxmenu/model.c

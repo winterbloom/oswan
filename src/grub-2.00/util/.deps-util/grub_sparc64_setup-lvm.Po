@@ -1,1 +1,1 @@
-# dummy
+util/grub_sparc64_setup-lvm.o: util/lvm.c

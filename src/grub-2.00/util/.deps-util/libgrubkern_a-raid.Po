@@ -1,1 +1,1 @@
-# dummy
+util/libgrubkern_a-raid.o: util/raid.c
