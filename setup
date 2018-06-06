@@ -1,0 +1,6 @@
+export HOME="/home/hazel"
+export PREFIX="$HOME/opt/cross"
+export TARGET="i686-elf"
+export PATH="$PREFIX/bin:$PATH"
+export IMAGES="/home/hazel/oswan/kernel"
+echo "Successfully set up $TARGET-gcc"
