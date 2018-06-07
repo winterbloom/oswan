@@ -1,0 +1,22 @@
+#set up console
+bash ../setup
+
+#compile boot.s
+i686-elf-as boot.s -o boot.o
+
+#compile kernel.c
+i686-elf-gcc -c kernel.c -o kernel.o -std=gnu99 -ffreestanding -O2 -Wall -Wextra
+
+#link kernel using linker.ld
+i686-elf-gcc -T linker.ld -o oswan.bin -ffreestanding -O2 -nostdlib boot.o kernel.o -lgcc
+
+#verify multiboot
+if grub-file --is-x86-multiboot oswan.bin; then
+	echo multiboot confirmed
+	cp oswan.bin isodir/boot/oswan.bin
+	grub-mkrescue -o oswan.iso isodir
+else
+	echo the file is not multiboot
+fi
+
+cd ..
